@@ -32,6 +32,7 @@ namespace OOPSExample_MethodOverloading
             obj.add(10, 10, "a");
             obj.add("a1", "b1", 10);
             obj.add("c1", "c2", "c3");
+            obj.add();
             //=============Method overloading End here============
         }
     }

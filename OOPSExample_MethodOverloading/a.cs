@@ -53,21 +53,22 @@ namespace OOPSExample_MethodOverloading
         //============constructor overloading end here=============================
         //============method overloading start here=============================
         //method usage is perform some opertions on varaibles and return data and excuting logic inside method also
-        public void add()
+        //overloading always tells same combination should  not repereat.
+        public void add()//we called this method as parameter less method.
         {
             Console.WriteLine("i am without parameter method");
         }
-        public void add(int x)
+        public void add(int x)//we called this method is single parameterized method
         {
             Console.WriteLine("i am single paramaterised(int x) method");
         }
-        public void add(int x, int y)
+        public void add(int x, int y)//we called this method is 2 paramerized method
         {
             Console.WriteLine("i am Two paramaterised(int x, int y) method");
             int t = x + y;
             Console.WriteLine(t);
         }
-        public void add(int x,int y,string a)
+        public void add(int x,int y,string a)//we called this method 3 parameterized method
         {
             Console.WriteLine("i am Three paramaterised(int x,int y,string a) method");
             int t = x + y;
